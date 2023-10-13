@@ -336,7 +336,24 @@ header {
   }
 
   .title {
-    font-size: 2.3em;
+    font-size: 1.9em;
+  }
+
+  .header p,
+  .text {
+    width: 100%;
+    letter-spacing: 0px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .name {
+    font-size: 1.2em;
+  }
+
+  .title {
+    font-size: 2em;
   }
 
   .header p,
