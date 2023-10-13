@@ -3,9 +3,11 @@ const observer = new IntersectionObserver((entries) => {
     console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } else {
-      entry.target.classList.remove("show");
     }
+    // uncomment to show remove and show the object repeadtedly
+    // else {
+    //   entry.target.classList.remove("show");
+    // }
   });
 });
 const hiddenElements = document.querySelectorAll(".hidden");
