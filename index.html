@@ -1,139 +1,227 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Daksh Joshi | Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <a class="logo" href="/"><img src="./assets/img/Logo.svg" alt="logo"></a>
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#contact">Get in touch</a>
-            <p class="menu cta">Menu</p>
-        </header>
-        <div class="overlay">
-            <a class="close">&times;</a>
-            <div class="overlay__content">
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Daksh Joshi | Portfolio</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<html>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+    <header>
+      <a class="logo" href="/"
+        ><img src="./assets/img/Logo.svg" alt="logo"
+      /></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#contact">Get in touch</a>
+      <p class="menu cta">Menu</p>
+    </header>
+    <div class="overlay">
+      <a class="close">&times;</a>
+      <div class="overlay__content">
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <!-- Header Section -->
+    <section class="header" id="home">
+      <img
+        src="./assets/img/profile.png"
+        alt="dakshjoshi_pfp"
+        class="profileImg"
+      />
+      <h1 class="name hidden">Daksh Joshi</h1>
+      <h1 class="title hidden">UI Designer & Frontend Developer</h1>
+      <p class="hidden">
+        Has Passion for Coding, actively creates content on Instagram & enjoys
+        building frontend applications.
+      </p>
+      <br />
+      <a href="#contact"><button class="headerBtn hidden">Hire me ⸺</button></a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about" id="about">
+      <dic class="centered">
+        <h1 class="name">About Me</h1>
+        <br />
+        <p class="text hidden">
+          I'm a 17-year-old creator with over 100,000 of audience across social
+          media. I often talk about programming, growth & productivity and self
+          improvement. Helping people slide into tech.
+        </p>
+        <br />
+        <div class="cards">
+          <article class="card hidden">
+            <img
+              class="about-img"
+              src="./assets/img/icons/coding-challenges.svg"
+              alt="coding challenges"
+            />
+            <h2 class="card-title">Coding Challenges</h2>
+            <p>
+              Actively participated in #100DaysOfCode challenge & documenting on
+              Instagram. Adopting new technologies consistently.
+            </p>
+          </article>
+          <article class="card hidden">
+            <img
+              class="about-img"
+              src="./assets/img/icons/content-creator.svg"
+              alt=""
+            />
+            <h2 class="card-title">Content Creator</h2>
+            <p>
+              I help students and junior developers 10x their coding skills,
+              develop projects & provide high-quality content through Instagram
+              & X
+            </p>
+          </article>
+          <article class="card hidden">
+            <img
+              class="about-img"
+              src="./assets/img/icons/frontend-developer.svg"
+              alt=""
+            />
+            <h2 class="card-title">Frontend Developer</h2>
+            <p>
+              Passionate for building beautiful User-Interface & web
+              applications which create impactful results. Actively searching
+              for internships and remote jobs.
+            </p>
+          </article>
         </div>
+      </dic>
+    </section>
 
-        <!-- Header Section -->
-        <section class="header" id="home">
-            <img src="./assets/img/profile.png" alt="dakshjoshi_pfp" class="profileImg">
-            <h1 class="name hidden">Daksh Joshi</h1>
-            <h1 class="title hidden">UI Designer & Frontend Developer</h1>
-            <p class="hidden">Has Passion for Coding, actively creates content on Instagram & enjoys building frontend applications.</p> <br>
-            <a href="#contact"></a><button class="headerBtn hidden">Hire me ⸺</button>
-        </section>
-
-        <!-- About Me -->
-        <section class="about" id="about">
-            <dic class="centered">
-                <h1 class="name">About Me</h1> <br>
-                <p class="text hidden">I'm a 17-year-old creator with over 100,000 of audience across social media. I often talk about programming, growth & productivity and self improvement. Helping people slide into tech.</p> <br>
-                <div class="cards">
-                    <article class="card hidden">
-                        <img class="about-img" src="./assets/img/icons/coding-challenges.svg" alt="coding challenges">
-                        <h2 class="card-title">Coding Challenges</h2>
-                        <p>Actively participated in #100DaysOfCode challenge & documenting on Instagram. Adopting new technologies consistently.</p>
-                    </article>
-                    <article class="card hidden">
-                        <img class="about-img"  src="./assets/img/icons/content-creator.svg" alt="">
-                        <h2 class="card-title">Content Creator</h2>
-                        <p>I help students and junior developers 10x their coding skills, develop projects & provide high-quality content through Instagram & X</p>
-                    </article>
-                    <article class="card hidden">
-                        <img class="about-img"  src="./assets/img/icons/frontend-developer.svg" alt="">
-                        <h2 class="card-title">Frontend Developer</h2>
-                        <p>Passionate for building beautiful User-Interface & web applications which create impactful results. Actively searching for internships and remote jobs.</p>
-                    </article>
-                </div>
-            </dic>
-        </section>
-
-        <!-- Projects -->
-        <section class="projects" id="projects">
-            <div class="centered">
-                <h1 class="name">My Work</h1> <br>
-                <p class="text hidden">Some projects I made & client projects</p> <br>
-                <div class="cards">
-                    <article class="card hidden">
-                        <img class="project-img" src="./assets/img/projects/project-1.png" alt="">
-                        <div class="icons" style="margin-bottom: 10px; margin-top: 10px;">
-                            <img src="./assets/img/github.svg" alt="github">
-                            <img src="./assets/img/preview.svg" alt="view">
-                        </div>
-                        <h2 class="card-title">BrainyKidos</h2>
-                        <p>A website made for tuition business landing page.</p>
-                        <br>
-                        <p class="technologies">
-                            <span>HTML</span> - 
-                            <span>CSS</span> - 
-                            <span>JavaScript</span>
-                        </p>
-                    </article>
-                    <article class="card hidden">
-                        <img class="project-img" src="./assets/img/projects/project-2.png" alt="">
-                        <div class="icons" style="margin-bottom: 10px; margin-top: 10px;">
-                            <img src="./assets/img/github.svg" alt="github">
-                            <img src="./assets/img/preview.svg" alt="view">
-                        </div>
-                        <h2 class="card-title">Maverion</h2>
-                        <p>Our company's Start-up website Designed by Daksh Shetty & developed by Daksh Joshi.</p>
-                        <br>
-                        <p class="technologies">
-                            <span>HTML</span> - 
-                            <span>CSS</span> - 
-                            <span>JavaScript</span>
-                        </p>
-                    </article>
-                    <article class="card hidden">
-                        <img class="project-img"  src="./assets/img/projects/project-4.png" alt="">
-                        <div class="icons" style="margin-bottom: 10px; margin-top: 10px;">
-                            <img src="./assets/img/github.svg" alt="github">
-                            <img src="./assets/img/preview.svg" alt="view">
-                        </div>
-                        <h2 class="card-title">Guru Foundation</h2>
-                        <p>Website developed for a NGO & a Foundation.</p>
-                        <br>
-                        <p class="technologies">
-                            <span>HTML</span> - 
-                            <span>CSS</span> - 
-                            <span>JavaScript</span>
-                        </p>
-                    </article>
-                </div>
-                <br>
-                <a href="https://github.com/hxshira" target="_blank"><button class="headerBtn hidden">View all projects ⸺</button></a>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="centered">
+        <h1 class="name">My Work</h1>
+        <br />
+        <p class="text hidden">Some projects I made & client projects</p>
+        <br />
+        <div class="cards">
+          <article class="card hidden">
+            <img
+              class="project-img"
+              src="./assets/img/projects/project-1.png"
+              alt=""
+            />
+            <div class="icons" style="margin-bottom: 10px; margin-top: 10px">
+              <img src="./assets/img/github.svg" alt="github" />
+              <img src="./assets/img/preview.svg" alt="view" />
             </div>
-        </section>
-
-        <!-- Get in touch -->
-        <section class="contact" id="contact">
-            <div class="centered">
-                <h1 class="name hidden">Get in touch</h1> <br>
-                <p class="text hidden">Tell me about your project Ideas, I’m Available for Freelancing work, Internships and Job (Frontend Developer Role).</p> <br>
-                <button class="headerBtn hidden">Say hello ⸺</button>
+            <h2 class="card-title">BrainyKidos</h2>
+            <p>A website made for tuition business landing page.</p>
+            <br />
+            <p class="technologies">
+              <span>HTML</span> - <span>CSS</span> -
+              <span>JavaScript</span>
+            </p>
+          </article>
+          <article class="card hidden">
+            <img
+              class="project-img"
+              src="./assets/img/projects/project-2.png"
+              alt=""
+            />
+            <div class="icons" style="margin-bottom: 10px; margin-top: 10px">
+              <img src="./assets/img/github.svg" alt="github" />
+              <img src="./assets/img/preview.svg" alt="view" />
             </div>
-        </section>
+            <h2 class="card-title">Maverion</h2>
+            <p>
+              Our company's Start-up website Designed by Daksh Shetty &
+              developed by Daksh Joshi.
+            </p>
+            <br />
+            <p class="technologies">
+              <span>HTML</span> - <span>CSS</span> -
+              <span>JavaScript</span>
+            </p>
+          </article>
+          <article class="card hidden">
+            <img
+              class="project-img"
+              src="./assets/img/projects/project-4.png"
+              alt=""
+            />
+            <div class="icons" style="margin-bottom: 10px; margin-top: 10px">
+              <img src="./assets/img/github.svg" alt="github" />
+              <img src="./assets/img/preview.svg" alt="view" />
+            </div>
+            <h2 class="card-title">Guru Foundation</h2>
+            <p>Website developed for a NGO & a Foundation.</p>
+            <br />
+            <p class="technologies">
+              <span>HTML</span> - <span>CSS</span> -
+              <span>JavaScript</span>
+            </p>
+          </article>
+        </div>
+        <br />
+        <a href="https://github.com/hxshira" target="_blank"
+          ><button class="headerBtn hidden">View all projects ⸺</button></a
+        >
+      </div>
+    </section>
 
-        <footer>
-            <p>Designed & Built by <a href="https://twitter.com/dakshjoshii">Daksh Joshi</a></p>
-        </footer>
+    <!-- Get in touch -->
+    <section class="contact" id="contact">
+      <div class="centered">
+        <h1 class="name hidden">Get in touch</h1>
+        <br />
+        <p class="text hidden">
+          Tell me about your project Ideas, I’m Available for Freelancing work,
+          Internships and Job (Frontend Developer Role).
+        </p>
+        <br />
+        <button class="headerBtn hidden">Say hello ⸺</button>
+      </div>
+    </section>
 
-        <script defer src="./assets/js/main.js"></script>
-        <script type="text/javascript" src="./assets/js/mobile.js"></script>
-    </body>
+    <footer>
+      <p>
+        Designed & Built by
+        <a href="https://twitter.com/dakshjoshii">Daksh Joshi</a>
+      </p>
+    </footer>
+
+    <script defer src="./assets/js/main.js"></script>
+    <script type="text/javascript" src="./assets/js/mobile.js"></script>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
 </html>
